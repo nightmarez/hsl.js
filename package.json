@@ -1,6 +1,6 @@
 {
   "name": "@nightmarez/hsl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HSL to RGB color converter",
   "main": "hsl.js",
   "dependencies": {

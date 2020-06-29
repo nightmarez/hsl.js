@@ -1,4 +1,4 @@
-// hsl.js v1.0.1
+// hsl.js v1.0.2
 // https://github.com/NightmareZ/hsl.js
 // Mykhailo Makarov, MIT License
 // m.m.makarov@gmail.com
