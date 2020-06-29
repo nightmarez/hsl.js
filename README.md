@@ -1,2 +1,2 @@
 # hsl.js
-RGB to HSL converter
+HSL to RGB converter
