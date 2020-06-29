@@ -1,0 +1,30 @@
+{
+  "name": "@nightmarez/hsl",
+  "version": "1.0.1",
+  "description": "HSL to RGB color converter",
+  "main": "hsl.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightmareZ/hsl.js.git"
+  },
+  "keywords": [
+    "hsl",
+    "rgb",
+    "color",
+    "hue",
+    "saturation",
+    "luminosity"
+  ],
+  "author": "Mykhailo Makarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NightmareZ/hsl.js/issues"
+  },
+  "homepage": "https://github.com/NightmareZ/hsl.js#readme"
+}
