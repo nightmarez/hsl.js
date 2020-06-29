@@ -1,13 +1,14 @@
 {
   "name": "@nightmarez/hsl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HSL to RGB color converter",
   "main": "hsl.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.0.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.test.js"
   },
   "repository": {
     "type": "git",
