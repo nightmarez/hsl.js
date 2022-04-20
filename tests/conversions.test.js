@@ -1,10 +1,17 @@
-const { HSLToRGB, RGBToHSL } = require('../hsl.js');
+const { HSLToRGB, RGBToHSV, HSVToHSL, HSLToHSV, HSVToRGB, RGBToHSL } = require('../hsl.js');
  
 it("should convert colors", function() {
-    const expectedResult = [127, 0, 0];
-    const result = HSLToRGB(RGBToHSL(expectedResult));
+    const source = [127, 0, 0];
+    let result = source;
+    const functions = [RGBToHSV, HSVToHSL, HSLToRGB, RGBToHSL, HSLToHSV, HSVToRGB];
+    
+    for (let func of functions) {
+        result = func(result[0], result[1], result[2]);
+        console.log(func);
+        console.log(result);
+    }
 
-    if (expectedResult.length !== result.length || !expectedResult.every((value, index) => value === result[index])) {
-        throw new Error(`Expected ${expectedResult}, but got ${result}`);
+    if (source.length !== result.length || !source.every((value, index) => value === result[index])) {
+        throw new Error(`Expected ${source}, but got ${result}`);
     }
 });
